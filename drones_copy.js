@@ -13,7 +13,7 @@ let show = true
 
         map.addSource('strikes', {
             'type': 'geojson',
-            'data': 'drone2.geojson'
+            'data': './drone2.geojson'
         });
 
         map.addLayer({
